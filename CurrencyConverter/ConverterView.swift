@@ -31,7 +31,7 @@ class ConverterView: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        usdLabel.text = "Amound in USD: $\(usdReturn)"
+        usdLabel.text = "Amount in USD: $\(usdReturn)"
         
         if yen != "No" {
             jpya.text = yen
