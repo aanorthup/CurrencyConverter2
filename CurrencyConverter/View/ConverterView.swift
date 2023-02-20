@@ -34,28 +34,28 @@ class ConverterView: UIViewController {
         usdLabel.text = "Amount in USD: $\(usdReturn)"
         
         if yen != "No" {
-            jpya.text = yen
+            jpya.text = "Ұ\(yen)"
         } else {
             jpya.isHidden = true
             jpyLabel.isHidden = true
         }
         
         if pound != "No" {
-            gbpa.text = pound
+            gbpa.text = "£\(pound)"
         } else {
             gbpLabel.isHidden = true
             gbpa.isHidden = true
         }
         
         if euro != "No" {
-            eura.text = euro
+            eura.text = "€\(euro)"
         } else {
             eura.isHidden = true
             eurLabel.isHidden = true
         }
         
        if cad != "No" {
-            cada.text = cad
+            cada.text = "$\(cad)"
         } else {
             cada.isHidden = true
             cadLabel.isHidden = true
