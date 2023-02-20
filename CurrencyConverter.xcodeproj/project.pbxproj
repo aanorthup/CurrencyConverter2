@@ -13,6 +13,8 @@
 		5CE6B2DF29A3031900F05E65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE6B2DD29A3031900F05E65 /* Main.storyboard */; };
 		5CE6B2E129A3031B00F05E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CE6B2E029A3031B00F05E65 /* Assets.xcassets */; };
 		5CE6B2E429A3031B00F05E65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CE6B2E229A3031B00F05E65 /* LaunchScreen.storyboard */; };
+		5CE6B2EE29A3069D00F05E65 /* ConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6B2ED29A3069D00F05E65 /* ConverterView.swift */; };
+		5CE6B2F029A306AE00F05E65 /* ConverterLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6B2EF29A306AE00F05E65 /* ConverterLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5CE6B2E029A3031B00F05E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CE6B2E329A3031B00F05E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CE6B2E529A3031B00F05E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CE6B2ED29A3069D00F05E65 /* ConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterView.swift; sourceTree = "<group>"; };
+		5CE6B2EF29A306AE00F05E65 /* ConverterLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				5CE6B2E029A3031B00F05E65 /* Assets.xcassets */,
 				5CE6B2E229A3031B00F05E65 /* LaunchScreen.storyboard */,
 				5CE6B2E529A3031B00F05E65 /* Info.plist */,
+				5CE6B2ED29A3069D00F05E65 /* ConverterView.swift */,
+				5CE6B2EF29A306AE00F05E65 /* ConverterLogic.swift */,
 			);
 			path = CurrencyConverter;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CE6B2DC29A3031900F05E65 /* ViewController.swift in Sources */,
+				5CE6B2EE29A3069D00F05E65 /* ConverterView.swift in Sources */,
 				5CE6B2D829A3031900F05E65 /* AppDelegate.swift in Sources */,
+				5CE6B2F029A306AE00F05E65 /* ConverterLogic.swift in Sources */,
 				5CE6B2DA29A3031900F05E65 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
